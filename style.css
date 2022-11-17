@@ -1,0 +1,50 @@
+
+
+body{
+    display: flex;
+    justify-content: center; 
+    
+}
+
+h3{
+    font-family: 'Open Sans', sans-serif;
+    border: 3px dotted black;
+    padding: 10px;
+    color:  rgb(178, 78, 95);
+
+}
+
+.container{
+    padding: 5em;
+    background: linear-gradient(50deg,pink, plum);
+    display: inline-flex;
+    flex-direction: column;
+    box-shadow: 5px 10px #888888;
+    border-radius: 10px;
+}
+
+#my_btn{
+   padding: 10px 24px;
+   font-size: 16px;
+   background-color: white;
+   color: black;
+   border: 2px solid rgb(178, 78, 95);
+   cursor: pointer;
+   border-radius: 5px;
+   box-shadow: 1px 3px #888888;
+   
+
+}
+#my_btn:hover{
+    background-color: rgb(178, 78, 95);
+    color:white;
+}
+
+#guess{
+    border-radius: 5px;
+    height: 2em;
+}
+
+
+
+
